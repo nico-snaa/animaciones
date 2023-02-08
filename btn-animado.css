@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-modern{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-modern:hover{
+    transform: translateX(-5px) translateY(-5px);
+    box-shadow: 3px 3px 5px grey;
+    background-color: darkgreen;
+    color: chartreuse;
+}
